@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+.logo{font-family: 'Allison', cursive;
+font-size: xx-large;
+font-weight: 500
+}
+body{
+  padding: 5px;
+  background-image: linear-gradient(to right,#71d9f3 ,#eec0c6);}
+.nav{
+  width: 100.5%	;
+	height: 80%;
+  background-color:#25a5d3;
+  	border:2px solid #6aafc9	;
+	font-size: 20px;
+	font-weight: 900;
+	color: solid black;
+	font-style: Monospace;
+ 
+
+}
+.progress{
+  background-color: #e28743;
+height: 5px;
+margin-left: 15px;
+margin-right: 15px;
+
+}
+.ImageGrid{
+  box-shadow: #e28743;
+  border:  #e28743 solid;
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-area: span;
+}
+.gride{
+  overflow: hidden;
+  position: relative;
+  /* height: 50%; */
+  opacity: 0.9;
+  padding: 5px;
+}
+.gride img{
+  min-height: 70%;
+  min-width: 70%;
+  max-width: 150%;
+  max-height: 150%;
+}
+  .column1{
+ flex: 2;
+} 
+.column2{
+  flex: 2;
+ }
+ .footer {
+  background-color:#25a5d3;
+  border-top:2px solid #25a5d3;
+  position:inherit;
+  width: 100.5%	;
+	height: 80%;
+  bottom: 0;
+  color: white;
+  font-size: px;
+ }
+ 
+ .about{
+  padding: 30px 70px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  display: flex;
+
+ 
+}
+.us{
+  font-size: 30px;
+  font-style:Bold;
+  font-weight: 500;
+  color: #eec0c6;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif  ;
+  padding-left: 5px;
+} 
+.column5{
+  display: inline-block;
+}
+.img{
+  height: 25%;
+  width: 25%;
+  border: solid #eec0c6 5px;
+  border-radius: 80px;
+
+}
+.icon{
+  height: 5%;
+  width: 5%;
+  border: solid #eec0c6 5px;
+  border-radius: 50%;
+
+}
+.icon2{
+  /* height: 70%;
+  width:70%; */
+  display:flex;
+  flex-direction: row;
+  padding: 15px;
+
+
+}
+.na{
+  font-style: italic;
+}
+.social-container {
+  background: #25a5d3;
+  position:relative;
+  text-align: center;
+  padding: 25px 50px;
+}
+
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+}
+
+a.youtube {
+  color: #eb3223;
+}
+
+a.facebook {
+  color: #4968ad;
+}
+
+a.twitter {
+  color: white;
+}
+
+a.instagram {
+  color: black;
+}
+.in{
+  
+  margin: 10px auto;
+  line-height: 30px;
+  color: rgb(50, 174, 231);
+  font-weight: bold;
+  font-size: 24px;
+}
+.in:hover{
+  background:linear-gradient(to right,#71d9f3 ,#eec0c6);
+  color: black;
+}
+.form-control{
+  height: 50px;
+  width: 400px;
+  position: relative;
+  margin: 10px auto;
+  border-radius: 50px;
+  line-height: 30px;
+}
